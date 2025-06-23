@@ -1,1 +1,1 @@
-# ChemicalWarehouseManagementSystem
+Developed an end to end warehouse database solution with relational tables, constraints, and triggers for managing customers, suppliers, products, sales, and returns. Implemented stored procedures for seamless data insertion, updating, and deletion across warehouse operations. Created analytical views and reports for sales, inventory, and performance monitoring. 
