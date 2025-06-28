@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CWMS Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header><h1>Chemical Warehouse Management System</h1></header>
+
+  <main>
+    <div class="card">
+      <h2>Total Customers</h2>
+      <p>{{ customer_count }}</p>
+    </div>
+    <div class="card">
+      <h2>Total Sales</h2>
+      <p>{{ sales_count }}</p>
+    </div>
+    <div class="card">
+      <h2>Total Purchase Value</h2>
+      <p>Rs. {{ total_purchase }}</p>
+    </div>
+    <div class="card">
+      <h2>Available Products</h2>
+      <p>{{ product_count }}</p>
+    </div>
+  </main>
+
+  <footer><p>© 2025 CWMS</p></footer>
+</body>
+</html>
